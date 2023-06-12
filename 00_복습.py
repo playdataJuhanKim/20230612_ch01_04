@@ -42,7 +42,7 @@ print("can_drink_beer", can_drink_beer)
 * `a and b`
 """
 
-n1, n2 = input("숫자두개입력 ".split())
+n1, n2 = input("숫자두개입력 ").split()
 print(n1)
 print(n2)
 
