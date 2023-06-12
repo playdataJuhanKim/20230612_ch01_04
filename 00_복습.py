@@ -13,10 +13,10 @@ print("can_drink_beer", can_drink_beer)
 """### 비교 연산자의 판단 결과
 * 파이썬에서는 비교 연산자와 논리 연산자의 판단 결과로 True, False를 사용합니다. 즉, 비교 결과가 맞으면 True, 아니면 False입니다.
 """
-my_age = int(input("나이는?"))
-can_bootcamp = my_age >20
+# my_age = int(input("나이는?"))
+# can_bootcamp = my_age >20
 
-print(can_bootcamp)
+# print(can_bootcamp)
 
 
 """### 숫자가 같은지 다른지 비교하기
@@ -35,10 +35,17 @@ print(can_bootcamp)
 * 이번에는 is와 is not입니다. 같다는 ==, 다르다는 !=이 이미 있는데 왜 is, is not을 만들었을까요? is, is not도 같다, 다르다지만 ==, !=는 값 자체를 비교하고, is, is not은 객체(object)를 비교합니다.
 """
 """* 1과 1.0은 정수와 실수라는 차이점이 있지만 값은 같습니다. 따라서 ==로 비교해보면 True가 나옵니다. 하지만 1과 1.0을 is로 비교해보면 False가 나옵니다. 왜냐하면 1은 정수 객체, 1.0은 실수 객체이므로 두 객체는 서로 다르기 때문입니다. 물론 1과 1.0을 is not으로 비교하면 True가 나오겠죠?
+
+
 ## 논리 연산자 사용하기
 * 이번에는 논리 연산자를 사용해보겠습니다. 논리 연산자는 and, or, not이 있는데 먼저 and입니다.
 * `a and b`
 """
+
+n1, n2 = input("숫자두개입력 ".split())
+print(n1)
+print(n2)
+
 """* and는 두 값이 모두 True라야 True입니다. 하나라도 False이면 False가 나옵니다.
 * 이번에는 or입니다.
 * `a or b`
